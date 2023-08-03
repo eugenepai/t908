@@ -17,7 +17,7 @@
         .tbltr3 {font-size:1.5vw; line-height:1.5vw;text-align:center;font-weight:bold;color:white;}
         /*Game control button setting*/
         .plainCtrl {color:black; background-color:lightgray; border: 2px solid black; border-radius:5px; 
-                    width:6em; height:1.5em;  }
+                    width:6em; height:2em;  }
         .roundEdge {color:blue; background-color:lightgray; border: 1px solid black; border-radius:5px;
                     padding:3px 10px; font-weight:bolder; }
         .W-CCW  {background: -webkit-linear-gradient(0deg,gray,white); }
@@ -273,7 +273,7 @@
                 <td colspan=3 Class="tbltr3">Game Controls:</td>               
             </tr>            
             <tr>
-                <td colspan=3 rowspan=15 id="gameConsole">
+                <td colspan=3 rowspan=15 id="gameConsole" style="border: 2px solid white">
                     <button  class="roundEdge" style="margin:5px;" onclick="location.href='howToPlay.html'">
                         How To Play
                     </button>
@@ -281,7 +281,7 @@
                     <div style="color:yellow; font-size:1.8vw; float:right; font-weight:bold;" id="CapsLockIsOn"></div>
                     
                     <!-- ===== Rubik's cube area : START ===== -->
-                    <div id="cube" class="cubeClass">
+                    <div id="cube" class="cubeClass" >
                         <!-- Layer-1 -->
                         <div id="Cube01" class="classCube01">
                             <div id="01F" class="red ucShape fsFront"></div>    <div id="01B" class="black ucShape fsBack"></div>
